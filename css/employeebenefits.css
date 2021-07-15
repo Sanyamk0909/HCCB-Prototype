@@ -1,0 +1,72 @@
+.wrap {
+	margin:0 auto;
+	padding:0 4%;
+}
+@media screen and (min-width: 960px) {	
+	.wrap {
+		padding:0 2%;
+	}
+}
+@media screen and (min-width: 1260px) {	
+	.wrap {
+		width:1200px;
+		padding:0;
+	}
+}
+/* Icons Section */
+.icons {
+	position:relative;
+	margin:0 0;
+	padding: 70px 0;
+	background:rgba(0,0,0,.8);
+}
+.icons:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;   
+	background-image:url('/imgs/iconsbg.jpg');
+	background-size:cover;
+	background-position:center center;
+}
+.icons h2 {
+	color:#ffffff;
+}
+.icons ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin:50px 0 0;
+	list-style:none;
+}
+.icons ul li {
+	width:44%;
+	margin:0 0 50px;
+	text-align: center;
+	font-size:16px;
+	font-weight:600;
+	letter-spacing: -0.2px;
+	color: #ffffff;
+}
+.icons ul li img {
+	margin:0 0 20px;
+}
+.icons ul li span {
+	display:block;
+}
+@media screen and (min-width: 768px) {	
+	.icons ul li {
+		width:27%;
+		margin:0 0 70px;
+		font-size:18px;
+	}
+}
+@media screen and (min-width: 960px) {	
+	.icons ul li {
+		font-size:20px;
+	}
+}
